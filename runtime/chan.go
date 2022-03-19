@@ -18,7 +18,7 @@ package runtime
 //  c.qcount < c.dataqsiz implies that c.sendq is empty.
 
 import (
-	"runtime/internal/atomic"
+	"github.com/dspencer12/gopkg/runtime/internal/atomic"
 	"unsafe"
 )
 

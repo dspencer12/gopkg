@@ -8,7 +8,7 @@ package runtime_test
 
 import (
 	"bytes"
-	"internal/testenv"
+	"github.com/dspencer12/gopkg/internal/testenv"
 	"io"
 	"io/ioutil"
 	"os"

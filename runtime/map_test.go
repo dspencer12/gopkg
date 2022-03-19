@@ -9,7 +9,7 @@ import (
 	"math"
 	"reflect"
 	"runtime"
-	"runtime/internal/sys"
+	"github.com/dspencer12/gopkg/runtime/internal/sys"
 	"sort"
 	"strconv"
 	"strings"

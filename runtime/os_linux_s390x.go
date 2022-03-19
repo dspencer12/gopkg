@@ -4,7 +4,7 @@
 
 package runtime
 
-import "internal/cpu"
+import "github.com/dspencer12/gopkg/internal/cpu"
 
 const (
 	// bit masks taken from bits/hwcap.h

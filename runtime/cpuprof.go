@@ -13,8 +13,8 @@
 package runtime
 
 import (
-	"runtime/internal/atomic"
-	"runtime/internal/sys"
+	"github.com/dspencer12/gopkg/runtime/internal/atomic"
+	"github.com/dspencer12/gopkg/runtime/internal/sys"
 	"unsafe"
 )
 

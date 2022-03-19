@@ -9,7 +9,7 @@ package runtime_test
 import (
 	"bytes"
 	"fmt"
-	"internal/testenv"
+	"github.com/dspencer12/gopkg/internal/testenv"
 	"os"
 	"os/exec"
 	"runtime"

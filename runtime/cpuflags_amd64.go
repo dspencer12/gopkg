@@ -5,7 +5,7 @@
 package runtime
 
 import (
-	"internal/cpu"
+	"github.com/dspencer12/gopkg/internal/cpu"
 	"unsafe"
 )
 

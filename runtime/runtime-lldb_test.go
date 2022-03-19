@@ -5,7 +5,7 @@
 package runtime_test
 
 import (
-	"internal/testenv"
+	"github.com/dspencer12/gopkg/internal/testenv"
 	"io/ioutil"
 	"os"
 	"os/exec"

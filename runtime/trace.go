@@ -13,7 +13,7 @@
 package runtime
 
 import (
-	"runtime/internal/sys"
+	"github.com/dspencer12/gopkg/runtime/internal/sys"
 	"unsafe"
 )
 

@@ -7,8 +7,8 @@ package runtime_test
 import (
 	"bytes"
 	"fmt"
-	"internal/syscall/windows/sysdll"
-	"internal/testenv"
+	"github.com/dspencer12/gopkg/internal/syscall/windows/sysdll"
+	"github.com/dspencer12/gopkg/internal/testenv"
 	"io/ioutil"
 	"math"
 	"os"

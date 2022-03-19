@@ -29,7 +29,7 @@
 package runtime
 
 import (
-	"runtime/internal/atomic"
+	"github.com/dspencer12/gopkg/runtime/internal/atomic"
 	_ "unsafe" // for go:linkname
 )
 

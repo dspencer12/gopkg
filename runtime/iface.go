@@ -5,8 +5,8 @@
 package runtime
 
 import (
-	"runtime/internal/atomic"
-	"runtime/internal/sys"
+	"github.com/dspencer12/gopkg/runtime/internal/atomic"
+	"github.com/dspencer12/gopkg/runtime/internal/sys"
 	"unsafe"
 )
 
@@ -32,7 +32,7 @@ func itabHashFunc(inter *interfacetype, typ *_type) uintptr {
 
 func getitab(inter *interfacetype, typ *_type, canfail bool) *itab {
 	if len(inter.mhdr) == 0 {
-		throw("internal error - misuse of itab")
+		throw("github.com/dspencer12/gopkg/internal error - misuse of itab")
 	}
 
 	// easy case

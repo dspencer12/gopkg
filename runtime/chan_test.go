@@ -5,7 +5,7 @@
 package runtime_test
 
 import (
-	"internal/testenv"
+	"github.com/dspencer12/gopkg/internal/testenv"
 	"math"
 	"runtime"
 	"sync"

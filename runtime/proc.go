@@ -5,9 +5,9 @@
 package runtime
 
 import (
-	"internal/cpu"
-	"runtime/internal/atomic"
-	"runtime/internal/sys"
+	"github.com/dspencer12/gopkg/internal/cpu"
+	"github.com/dspencer12/gopkg/runtime/internal/atomic"
+	"github.com/dspencer12/gopkg/runtime/internal/sys"
 	"unsafe"
 )
 
@@ -2772,7 +2772,7 @@ func goexit0(gp *g) {
 
 	if _g_.m.lockedInt != 0 {
 		print("invalid m->lockedInt = ", _g_.m.lockedInt, "\n")
-		throw("internal lockOSThread error")
+		throw("github.com/dspencer12/gopkg/internal lockOSThread error")
 	}
 	gfput(_g_.m.p.ptr(), gp)
 	if locked {
@@ -3721,7 +3721,7 @@ func sigprof(pc, sp, lr uintptr, gp *g, mp *m) {
 	// received from somewhere else (with _LostSIGPROFDuringAtomic64 as pc).
 	if GOARCH == "mips" || GOARCH == "mipsle" || GOARCH == "arm" {
 		if f := findfunc(pc); f.valid() {
-			if hasprefix(funcname(f), "runtime/internal/atomic") {
+			if hasprefix(funcname(f), "github.com/dspencer12/gopkg/runtime/internal/atomic") {
 				lostAtomic64Count++
 				return
 			}

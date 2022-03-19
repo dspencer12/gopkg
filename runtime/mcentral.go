@@ -12,7 +12,7 @@
 
 package runtime
 
-import "runtime/internal/atomic"
+import "github.com/dspencer12/gopkg/runtime/internal/atomic"
 
 // Central list of free objects of a given size.
 //
