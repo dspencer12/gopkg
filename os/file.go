@@ -38,8 +38,8 @@ package os
 
 import (
 	"errors"
-	"internal/poll"
-	"internal/testlog"
+	"github.com/dspencer12/gopkg/internal/poll"
+	"github.com/dspencer12/gopkg/internal/testlog"
 	"io"
 	"runtime"
 	"syscall"
