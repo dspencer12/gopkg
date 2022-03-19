@@ -4,7 +4,7 @@
 
 package runtime
 
-import "internal/bytealg"
+import "github.com/dspencer12/gopkg/internal/bytealg"
 
 // The Error interface identifies a run time error.
 type Error interface {

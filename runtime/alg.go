@@ -5,8 +5,8 @@
 package runtime
 
 import (
-	"internal/cpu"
-	"runtime/internal/sys"
+	"github.com/dspencer12/gopkg/internal/cpu"
+	"github.com/dspencer12/gopkg/runtime/internal/sys"
 	"unsafe"
 )
 
