@@ -4,7 +4,7 @@
 
 package bytealg
 
-import "internal/cpu"
+import "github.com/dspencer12/gopkg/internal/cpu"
 
 const MaxBruteForce = 64
 
