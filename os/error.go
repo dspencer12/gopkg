@@ -6,7 +6,7 @@ package os
 
 import (
 	"errors"
-	"internal/poll"
+	"github.com/dspencer12/gopkg/internal/poll"
 )
 
 // Portable analogs of some common system call errors.

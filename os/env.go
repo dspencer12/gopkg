@@ -7,7 +7,7 @@
 package os
 
 import (
-	"internal/testlog"
+	"github.com/dspencer12/gopkg/internal/testlog"
 	"syscall"
 )
 
