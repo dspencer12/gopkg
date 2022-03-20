@@ -1,4 +1,4 @@
-package exec
+package execwrap
 
 import "os/exec"
 
